@@ -1,0 +1,24 @@
+.card {
+    width: 400px;
+    height: 450px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* istediğiniz maksimum yükseklik */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    height: 400px; /* istediğiniz yükseklik */
+    overflow: hidden;
+    text-align: center; /* istediğiniz hizalama */
+  }
+
+  #sabah_kemal img {
+    object-position: top center;
+    object-fit: cover;
+    height: 450px; /* resim yüksekliği ayarlanabilir */
+  }
+  

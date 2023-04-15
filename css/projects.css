@@ -1,0 +1,28 @@
+#main_title{
+    font-size: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    margin: 50px auto;
+    border: none;
+    border-radius: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+      
+    
+.box i {
+font-size: 3em;
+margin: 20px;
+color: #0FF;
+transition: all 0.5s ease;
+}
+
+.box i:hover {
+transform: scale(1.2);
+color: rgba(146, 34, 34, 0.966);
+}
